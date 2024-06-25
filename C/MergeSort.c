@@ -19,7 +19,7 @@ int main()
     }
     low = 0;
     high = n - 1;
-    mergeSort(arr, low, high); // just passing array and the range for sorting
+    mergeSort(arr, low, high); 
     printf("\nArray After Sorting : ");
     for (i = 0; i < n; i++)
     {
@@ -45,7 +45,7 @@ void merge(int arr[], int low, int mid, int high)
     int i = low;
     int j = mid + 1;
     int k = low;
-    int arr2[high]; // size = high for storing exactly all vaules of arr[] in sorted way.
+    int arr2[high]; 
     while (i <= mid && j <= high)
     {
         if (arr[i] <= arr[j])
