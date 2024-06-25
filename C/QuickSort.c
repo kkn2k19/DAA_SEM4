@@ -23,7 +23,7 @@ int main()
     }
     lb = 0;
     ub = n - 1;
-    quickSort(arr, lb, ub); // just passing array and the range for sorting
+    quickSort(arr, lb, ub);
     printf("\nArray After Sorting : ");
     for (i = 0; i < n; i++)
     {
