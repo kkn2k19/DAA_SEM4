@@ -27,17 +27,26 @@ int main() {
     int m, i, opt;
     printf("Enter no. of Objects : ");
     scanf("%d", &n);
-    printf("\nEnter the Weights : ");
+    printf("Enter the Weights : ");
     for (i = 1; i <= n; i++) {
         scanf("%d", &w[i]);
     }
-    printf("\nEnter the profits : ");
+    printf("Enter the profits : ");
     for (i = 1; i <= n; i++) {
         scanf("%d", &p[i]);
     }
-    printf("\nEnter the Knapsack Capacity : ");
+    printf("Enter the Knapsack Capacity : ");
     scanf("%d", &m);
     opt = Knapsack(1, m);
-    printf("\nThe Optimal Solution is : %d", opt);
+    printf("The Optimal Solution is : %d", opt);
     return 0;
 }
+
+
+
+// OUTPUT --
+// Enter no. of Objects : 3
+// Enter the Weights : 4 5 1
+// Enter the profits : 1 2 3
+// Enter the Knapsack Capacity : 4
+// The Optimal Solution is : 3
