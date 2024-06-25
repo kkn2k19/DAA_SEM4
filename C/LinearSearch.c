@@ -7,7 +7,7 @@ int main()
     int n, i, arr[20], key;
     printf("Enter size of the Array : ");
     scanf("%d", &n);
-    printf("Enter the elements of Sorted Array : ");
+    printf("Enter the elements of Array : ");
     for (i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
@@ -40,7 +40,7 @@ int linearSearch(int arr[], int n, int key)
 
 // OUTPUT ---
 // Enter size of the Array : 5
-// Enter the elements of Sorted Array : 1 2 3 4 5 
+// Enter the elements of Array : 1 2 3 4 5 
 // Array : 1 2 3 4 5 
 // Enter the value to search : 3 
 // Found at index : 2
